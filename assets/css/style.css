@@ -169,3 +169,25 @@ body{
   opacity: 1;
   visibility: visible;
 }
+
+.mainmenu ul li.caret:after {
+  position: absolute;
+  content: "\f0d7";
+  right: -16px;
+  top: 50%;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 700;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+.header-search button {
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: 0;
+}
+.ticker{
+	margin-top: 7px;
+}
