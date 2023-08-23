@@ -6,8 +6,10 @@
     <title>Newspaper</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- Bootstrap CSS -->
+    <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- Slicknav CSS -->
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive CSS -->
@@ -43,7 +45,7 @@
                         <img src="assets/img/logo-01.png" alt="">
                     </a>
                     <nav class="mainmenu">
-                        <ul class="d-flex align-items-center">
+                        <ul class="d-flex align-items-center" id="menu">
                             <li><a href="index.html" class="text-decoration-none">Home</a></li>
                             <li class="position-relative ms-4 caret me-3"><a href="#" class="text-decoration-none">World News</a>
                                 <ul class="position-absolute z-3">
@@ -69,6 +71,7 @@
                                     <li><a href="category.html" class="text-decoration-none">Category</a></li>
                                     <li><a href="single-news.html" class="text-decoration-none">Single Post</a></li>
                                     <li><a href="search.html" class="text-decoration-none">Search Page</a></li>
+                                    <li><a href="archive.html" class="text-decoration-none">Archive Page</a></li>
                                     <li><a href="404.html" class="text-decoration-none">404 Page</a></li>
                                 </ul>
                             </li>
@@ -158,10 +161,10 @@
     <div class="row">
         <div class="col-md-8">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="post-list-title d-flex align-items-center justify-content-between">
+                <div class="col-md-6 mb-5">
+                    <div class="post-list-title border-red d-flex align-items-center justify-content-between mb-3">
                         <h4>Asia</h4>
-                        <a href="">View All</a>
+                        <a href="" class="text-decoration-none">View All</a>
                     </div>
                     <div class="post-list">
                         <div class="post-list-large mb-4">
@@ -183,7 +186,7 @@
                             </div>
                         </div>
                         <div class="post-list-medium d-flex align-items-center mb-3">
-                            <img src="assets/img/post-05.jpg" class="w-50 me-3" alt="">
+                            <img src="assets/img/post-07.jpg" class="w-50 me-3" alt="">
                             <div class="post-list-content">
                                 <h4><a href="" class="text-decoration-none fs-6 lh-base">Donec metus orci, malesuada et lectus vitae </a></h4>
                                 <div class="post-box-meta">
@@ -193,7 +196,7 @@
                             </div>
                         </div>
                         <div class="post-list-medium d-flex align-items-center">
-                            <img src="assets/img/post-04.jpg" class="w-50 me-3" alt="">
+                            <img src="assets/img/post-03.jpg" class="w-50 me-3" alt="">
                             <div class="post-list-content">
                                 <h4><a href="" class="text-decoration-none fs-6 lh-base">Donec metus orci, malesuada et lectus vitae </a></h4>
                                 <div class="post-box-meta">
@@ -204,14 +207,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="post-list-title d-flex align-items-center justify-content-between">
-                        <h4>Asia</h4>
-                        <a href="">View All</a>
+                <div class="col-md-6 mb-5">
+                    <div class="post-list-title border-green d-flex align-items-center justify-content-between mb-3">
+                        <h4>USA & Canada</h4>
+                        <a href="" class="text-decoration-none">View All</a>
                     </div>
                     <div class="post-list">
                         <div class="post-list-large mb-4">
-                            <img src="assets/img/latest-01.jpg" class="w-100" alt="">
+                            <img src="assets/img/latest-02.jpg" class="w-100" alt="">
                             <h4 class="mt-1 mb-0"><a href="" class="text-decoration-none fs-5 fw-medium">Bitcoin lorem ipsum dolor sit amet consectetur </a></h4>
                             <div class="post-box-meta">
                                 <a class="text-decoration-none" href="" class="text-decoration-none">by John Alvarada</a>
@@ -219,7 +222,7 @@
                             </div>
                         </div>
                         <div class="post-list-medium d-flex align-items-center mb-3">
-                            <img src="assets/img/post-03.jpg" class="w-50 me-3" alt="">
+                            <img src="assets/img/post-01.jpg" class="w-50 me-3" alt="">
                             <div class="post-list-content">
                                 <h4><a href="" class="text-decoration-none fs-6 lh-base">Donec metus orci, malesuada et lectus vitae </a></h4>
                                 <div class="post-box-meta">
@@ -229,7 +232,7 @@
                             </div>
                         </div>
                         <div class="post-list-medium d-flex align-items-center mb-3">
-                            <img src="assets/img/post-05.jpg" class="w-50 me-3" alt="">
+                            <img src="assets/img/post-06.jpg" class="w-50 me-3" alt="">
                             <div class="post-list-content">
                                 <h4><a href="" class="text-decoration-none fs-6 lh-base">Donec metus orci, malesuada et lectus vitae </a></h4>
                                 <div class="post-box-meta">
@@ -239,7 +242,7 @@
                             </div>
                         </div>
                         <div class="post-list-medium d-flex align-items-center">
-                            <img src="assets/img/post-04.jpg" class="w-50 me-3" alt="">
+                            <img src="assets/img/post-07.jpg" class="w-50 me-3" alt="">
                             <div class="post-list-content">
                                 <h4><a href="" class="text-decoration-none fs-6 lh-base">Donec metus orci, malesuada et lectus vitae </a></h4>
                                 <div class="post-box-meta">
@@ -250,28 +253,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="post-list-title d-flex align-items-center justify-content-between">
-                        <h4>Asia</h4>
-                        <a href="">View All</a>
+                <div class="col-md-6 mb-5">
+                    <div class="post-list-title border-blue d-flex align-items-center justify-content-between mb-3">
+                        <h4>Europe</h4>
+                        <a href="" class="text-decoration-none">View All</a>
                     </div>
                     <div class="post-list">
                         <div class="post-list-large mb-4">
-                            <img src="assets/img/latest-01.jpg" class="w-100" alt="">
+                            <img src="assets/img/latest-03.jpg" class="w-100" alt="">
                             <h4 class="mt-1 mb-0"><a href="" class="text-decoration-none fs-5 fw-medium">Bitcoin lorem ipsum dolor sit amet consectetur </a></h4>
                             <div class="post-box-meta">
                                 <a class="text-decoration-none" href="" class="text-decoration-none">by John Alvarada</a>
                                 <span>- Feb 18</span>
-                            </div>
-                        </div>
-                        <div class="post-list-medium d-flex align-items-center mb-3">
-                            <img src="assets/img/post-03.jpg" class="w-50 me-3" alt="">
-                            <div class="post-list-content">
-                                <h4><a href="" class="text-decoration-none fs-6 lh-base">Donec metus orci, malesuada et lectus vitae </a></h4>
-                                <div class="post-box-meta">
-                                    <a class="text-decoration-none" href="" class="text-decoration-none">by John Alvarada</a>
-                                    <span">- Feb 18</span>
-                                </div>
                             </div>
                         </div>
                         <div class="post-list-medium d-flex align-items-center mb-3">
@@ -284,8 +277,18 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="post-list-medium d-flex align-items-center mb-3">
+                            <img src="assets/img/post-02.jpg" class="w-50 me-3" alt="">
+                            <div class="post-list-content">
+                                <h4><a href="" class="text-decoration-none fs-6 lh-base">Donec metus orci, malesuada et lectus vitae </a></h4>
+                                <div class="post-box-meta">
+                                    <a class="text-decoration-none" href="" class="text-decoration-none">by John Alvarada</a>
+                                    <span">- Feb 18</span>
+                                </div>
+                            </div>
+                        </div>
                         <div class="post-list-medium d-flex align-items-center">
-                            <img src="assets/img/post-04.jpg" class="w-50 me-3" alt="">
+                            <img src="assets/img/post-08.jpg" class="w-50 me-3" alt="">
                             <div class="post-list-content">
                                 <h4><a href="" class="text-decoration-none fs-6 lh-base">Donec metus orci, malesuada et lectus vitae </a></h4>
                                 <div class="post-box-meta">
@@ -296,14 +299,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="post-list-title d-flex align-items-center justify-content-between">
-                        <h4>Asia</h4>
-                        <a href="">View All</a>
+                <div class="col-md-6 mb-5">
+                    <div class="post-list-title border-skyblue d-flex align-items-center justify-content-between mb-3">
+                        <h4>Africa</h4>
+                        <a href="" class="text-decoration-none">View All</a>
                     </div>
                     <div class="post-list">
                         <div class="post-list-large mb-4">
-                            <img src="assets/img/latest-01.jpg" class="w-100" alt="">
+                            <img src="assets/img/latest-04.jpg" class="w-100" alt="">
                             <h4 class="mt-1 mb-0"><a href="" class="text-decoration-none fs-5 fw-medium">Bitcoin lorem ipsum dolor sit amet consectetur </a></h4>
                             <div class="post-box-meta">
                                 <a class="text-decoration-none" href="" class="text-decoration-none">by John Alvarada</a>
@@ -311,7 +314,7 @@
                             </div>
                         </div>
                         <div class="post-list-medium d-flex align-items-center mb-3">
-                            <img src="assets/img/post-03.jpg" class="w-50 me-3" alt="">
+                            <img src="assets/img/post-05.jpg" class="w-50 me-3" alt="">
                             <div class="post-list-content">
                                 <h4><a href="" class="text-decoration-none fs-6 lh-base">Donec metus orci, malesuada et lectus vitae </a></h4>
                                 <div class="post-box-meta">
@@ -321,7 +324,7 @@
                             </div>
                         </div>
                         <div class="post-list-medium d-flex align-items-center mb-3">
-                            <img src="assets/img/post-05.jpg" class="w-50 me-3" alt="">
+                            <img src="assets/img/post-01.jpg" class="w-50 me-3" alt="">
                             <div class="post-list-content">
                                 <h4><a href="" class="text-decoration-none fs-6 lh-base">Donec metus orci, malesuada et lectus vitae </a></h4>
                                 <div class="post-box-meta">
@@ -385,26 +388,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="post-box mb-5">
-                        <img src="assets/img/latest-05.jpg" alt="" class="img-thumbnail">
-                        <h4 class="fs-5 lh-base mt-2 d-block mb-1"><a href="" class="text-decoration-none">You wish lorem ipsum dolor sit amet consectetur </a></h4>
-                        <div class="post-box-meta">
-                            <a class="text-decoration-none" href="" class="text-decoration-none">by John Alvarada</a>
-                            <span>- Feb 18</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="post-box mb-5">
-                        <img src="assets/img/latest-06.jpg" alt="" class="img-thumbnail">
-                        <h4 class="fs-5 lh-base mt-2 d-block mb-1"><a href="" class="text-decoration-none">You wish lorem ipsum dolor sit amet consectetur </a></h4>
-                        <div class="post-box-meta">
-                            <a class="text-decoration-none" href="" class="text-decoration-none">by John Alvarada</a>
-                            <span>- Feb 18</span>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <div class="col-md-4">
@@ -420,6 +403,28 @@
             </div>
             <div class="single-sidebar mt-5">
                 <img src="assets/img/banner-02.jpg" class="img-thumbnail" alt="">
+            </div>
+            <div class="single-sidebar mt-5">
+                <h4 class="title-border fs-5 px-3 py-2 mb-4">Category</h4>
+                <ul class="sidebar-list">
+                    <li class="mb-3"><a href="" class="text-decoration-none fw-medium">Asia</a></li>
+                    <li class="mb-3"><a href="" class="text-decoration-none fw-medium">USA & Canada</a></li>
+                    <li class="mb-3"><a href="" class="text-decoration-none fw-medium">Socials</a></li>
+                    <li class="mb-3"><a href="" class="text-decoration-none fw-medium">Europe</a></li>
+                    <li class="mb-3"><a href="" class="text-decoration-none fw-medium">Australia</a></li>
+                    <li class="mb-3"><a href="" class="text-decoration-none fw-medium">Africa</a></li>
+                </ul>
+            </div>
+            <div class="single-sidebar mt-5">
+                <h4 class="title-border fs-5 px-3 py-2 mb-4">Archive</h4>
+                <ul class="sidebar-list">
+                    <li class="mb-3"><a href="" class="text-decoration-none fw-medium">July 2018 (9)</a></li>
+                    <li class="mb-3"><a href="" class="text-decoration-none fw-medium">June 2018 (39)</a></li>
+                    <li class="mb-3"><a href="" class="text-decoration-none fw-medium">May 2018 (29)</a></li>
+                    <li class="mb-3"><a href="" class="text-decoration-none fw-medium">April 2018 (35)</a></li>
+                    <li class="mb-3"><a href="" class="text-decoration-none fw-medium">March 2018 (22)</a></li>
+                    <li class="mb-3"><a href="" class="text-decoration-none fw-medium">February 2018 (32)</a></li>
+                </ul>
             </div>
             <div class="single-sidebar mt-5">
                 <h4 class="title-border fs-5 px-3 py-2 mb-4">Tags</h4>
@@ -524,6 +529,7 @@
 <!-- Bootstrap Bundle JS -->
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/jquery.ticker.min.js"></script>
+<script src="assets/js/slicknav.min.js"></script>
 <!-- Main JS -->
 <script src="assets/js/main.js"></script>
 </body>

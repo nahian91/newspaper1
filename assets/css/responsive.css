@@ -1,0 +1,15 @@
+.slicknav_menu{
+    display: none;
+}
+.mainmenu{
+    display: block;
+}
+
+@media screen and (max-width: 800px) {
+    .slicknav_menu{
+        display: block;
+    }
+    .mainmenu{
+        display: none;
+    }
+}

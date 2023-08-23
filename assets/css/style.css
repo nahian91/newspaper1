@@ -13,6 +13,9 @@ a:hover{
 img{
   max-width: 100%;
 }
+.lh-base{
+  height: 1.3 !important;
+}
 body{
   font-family: 'Inter', sans-serif;
   font-size: 16px;
@@ -138,6 +141,7 @@ body{
   color: #333;
   display: block;
   padding: 15px 0;
+  font-weight: 500;
 }
 .mainmenu ul {
   padding: 0;
@@ -244,5 +248,50 @@ body{
   border: 1px solid #ddd;
   font-size: 20px;
   padding: 5px 30px;
+  color: #333;
+}
+
+.post-list-title {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.post-list-title h4 {
+  margin-bottom: 0;
+  font-size: 18px;
+  padding-left: 5px;
+}
+.post-list-title a {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+}
+.post-list-title.border-red {
+  border-left: 5px solid #e71d69;
+}
+.post-list-title.border-red h4 {
+  color: #e71d69;
+}
+.post-list-title.border-green{
+  border-left: 5px solid #15a752;
+}
+.post-list-title.border-green h4{
+  color: #15a752;
+}
+.post-list-title.border-blue{
+  border-left: 5px solid #2489b0;
+}
+.post-list-title.border-blue h4{
+  color: #2489b0;
+}
+.post-list-title.border-skyblue{
+  border-left: 5px solid #e3724a;
+}
+.post-list-title.border-skyblue h4{
+  color: #e3724a;
+}
+.featured-post-content h4 {
+	line-height: 1.3 !important;
+}
+.post-list h4 a {
   color: #333;
 }
