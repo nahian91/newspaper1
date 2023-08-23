@@ -191,3 +191,58 @@ body{
 .ticker{
 	margin-top: 7px;
 }
+
+.breadcumb ul {
+  padding: 0;
+  display: flex;
+}
+.breadcumb ul li i {
+  color: #8888;
+  font-size: 12px;
+}
+
+.single-post-desc p {
+  font-size: 15px;
+  color: #666;
+}
+
+.single-post-tag h5 {
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.single-post-tag a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 15px;
+}
+.single-post-tag {
+  margin-bottom: 15px;
+}
+.single-post-social h5 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-right: 15px;
+}
+.single-post-social a {
+  color: #333;
+}
+
+.single-post-comment input[type="submit"] {
+  width: auto;
+  background-color: #333;
+  color: #fff;
+  border: 0;
+  font-weight: 500;
+}
+
+.single-post-cat {
+  display: inline-block;
+  border: 1px solid #ddd;
+  font-size: 20px;
+  padding: 5px 30px;
+  color: #333;
+}
